@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".fragment.ProfileFragment">
+
+    <TextView
+        android:id="@+id/your_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/lemon_reg"
+        android:text="@string/your_profile"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/displayNameTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/your_profile"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/lemon_reg"
+        android:gravity="start"
+        android:padding="5dp"
+        android:layout_marginStart="30dp"
+        android:text="@string/dev_adnani"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/displayMobileNoTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displayNameTxtView"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/lemon_reg"
+        android:gravity="start"
+        android:padding="5dp"
+        android:layout_marginStart="30dp"
+        android:text="@string/_91_88888_88888"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/displayEmailTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displayMobileNoTxtView"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/lemon_reg"
+        android:gravity="start"
+        android:layout_marginStart="30dp"
+        android:padding="5dp"
+        android:text="@string/dev_adnani26_gmail_com"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/displayAddressTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displayEmailTxtView"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/lemon_reg"
+        android:gravity="start"
+        android:padding="5dp"
+        android:text="@string/sample_address"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+
+</RelativeLayout>

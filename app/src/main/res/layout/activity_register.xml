@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".activity.RegisterActivity">
+
+
+    <ImageView
+        android:id="@+id/registerImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/ic_food_delivery" />
+
+    <TextView
+        android:id="@+id/TxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registerImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/lemon_reg"
+        android:text="@string/register_now"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/nameRegET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TxtView"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/lemon_reg"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:maxLength="10"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/emailRegET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameRegET"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/lemon_reg"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/mobileRegET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailRegET"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/lemon_reg"
+        android:hint="@string/enter_your_mobile_no_10_digits"
+        android:inputType="textEmailAddress"
+        android:maxLength="10"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/deliveryRegET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mobileRegET"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/lemon_reg"
+        android:hint="@string/delivery_address"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/passRegET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deliveryRegET"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/lemon_reg"
+        android:hint="@string/enter_your_password"
+        android:inputType="numberPassword"
+        android:maxLength="6"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/confirmPassRegET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passRegET"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/lemon_reg"
+        android:maxLength="6"
+        android:hint="@string/confirm_your_password"
+        android:inputType="numberPassword"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/signUpRegBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirmPassRegET"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white"
+        android:fontFamily="@font/lemon_reg"
+        android:padding="12dp"
+        android:text="@string/register_now" />
+
+
+</RelativeLayout>

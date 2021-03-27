@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".activity.OtpActivity">
+
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/lemon_reg"
+        android:gravity="center"
+        android:text="@string/enter_the_received_otp_below"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+
+    <EditText
+        android:id="@+id/otpET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtInfo"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/lemon_reg"
+        android:hint="@string/otp_4_characters"
+        android:inputType="number"
+        android:maxLength="10"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/newPassET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/otpET"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/lemon_reg"
+        android:hint="@string/new_password"
+        android:inputType="textPassword"
+        android:maxLength="6"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/confirmPassET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newPassET"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/lemon_reg"
+        android:hint="@string/confirm_your_password"
+        android:inputType="textPassword"
+        android:maxLength="6"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirmPassET"
+        android:layout_margin="15dp"
+        android:background="@color/white"
+        android:fontFamily="@font/lemon_reg"
+        android:padding="10dp"
+        android:text="@string/reset" />
+
+
+</RelativeLayout>

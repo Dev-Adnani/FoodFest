@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Food O Mania</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sample_name">Dev Adnani</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="faq">FAQ</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="password">Password</string>
+    <string name="enter_your_mobile_no_10_digits">Enter Your Mobile No(10 Digits)</string>
+    <string name="login">Login</string>
+    <string name="logo">Logo</string>
+    <string name="forget_password"><u>Forget Password?</u></string>
+    <string name="sign_up"><u>Don\'t Have A Account? Sign Up Now</u></string>
+    <string name="name">Name (Min 3 characters)</string>
+    <string name="email">Email Address</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="confirm_your_password">Confirm Your Password</string>
+    <string name="register_now">Register Now</string>
+    <string name="enter_your_registered_mobile_number_and_email_below">Enter Your Registered Mobile Number and email below :</string>
+    <string name="next">Next</string>
+    <string name="reset">Reset</string>
+    <string name="enter_the_received_otp_below">Enter the received otp below</string>
+    <string name="otp_4_characters">OTP ( 4 Characters)</string>
+    <string name="new_password">New Password</string>
+    <string name="favourites_restaurant">Favourites Restaurant</string>
+    <string name="order_history">Order History</string>
+    <string name="logout">Logout</string>
+    <string name="_91_88888_88888">+91 88888 88888</string>
+    <string name="dev_adnani">Dev Adnani</string>
+    <string name="dev_adnani26_gmail_com">dev.adnani26@gmail.com</string>
+    <string name="sample_address">Ahmedabad</string>
+    <string name="sample_food">Paneer Tikka</string>
+    <string name="sample_price">Rs 150/person</string>
+    <string name="_4_5">4.5</string>
+    <string name="none">none</string>
+    <string name="your_previous_orders_are_listed_below">Your previous orders :</string>
+    <string name="question1">Q1. Why is Food\'O Maina doing this?</string>
+    <string name="answer1">A1. At Food\'O Maina we strive to add value to your business. \n \nWe understand the challenges you face on a daily basis in sourcing the best quality packaging material.\n \nFood\'O Maina Packaging Assist is to take care of all your packaging needs.</string>
+    <string name="question2">Q2. How are you guys different?</string>
+    <string name="answer2">A2. Best products - We only list the products which have passed our tests and are the best suitable for delivery.\n \nThey will help in giving a better consumer experience, so you can get repeated orders.\n \nBest prices - We have negotiated rates with our distributors exclusive for Food\'O Maina Restaurant.\n \nConvenience - No need to haggle for prices. \n \nNo need to follow-up on delivery. \n \nWe track all orders to ensure you have a hassle free experience.</string>
+    <string name="question3">Q3. Why is Food\'O Maina doing this?</string>
+    <string name="answer3">A3. At Food\'O Maina we strive to add value to your business. \n \nWe understand the challenges you face on a daily basis in sourcing the best quality packaging material. \n \nFood\'O Maina Packaging Assist is to take care of all your packaging needs.</string>
+    <string name="question4">Q4. How are you guys different?</string>
+    <string name="answer4">A4. Best products - We only list the products which have passed our tests and are the best suitable for delivery.\n \nThey will help in giving a better consumer experience, so you can get repeated orders.\n \nBest prices - We have negotiated rates with our distributors exclusive for Food\'O Maina Restaurant.\n \nConvenience - No need to haggle for prices. No need to follow-up on delivery.\n \nWe track all orders to ensure you have a hassle free experience.</string>
+    <string name="_1">1</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="choose_from_menu_listed_below">Choose From Menu Listed Below</string>
+    <string name="proceed_to_cart_btn">Proceed To Cart</string>
+    <string name="shared_preferences">RestaurantPreference</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="no_data_found_in_favourite">You Do not have any favorite Restaurants</string>
+    <string name="rating">Rating</string>
+    <string name="cost_low_to_high">Cost (Low To High)</string>
+    <string name="cost_high_to_low">Cost (High To Low)</string>
+    <string name="ordering_from">Ordering From</string>
+    <string name="place_order">Place Order</string>
+    <string name="no_orders_placed">No Orders Placed</string>
+    <string name="restaurant_name">Restaurant Name</string>
+
+
+</resources>

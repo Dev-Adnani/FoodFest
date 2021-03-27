@@ -1,0 +1,3 @@
+include ':easyaccordion'
+include ':app'
+rootProject.name = "FoodFest"

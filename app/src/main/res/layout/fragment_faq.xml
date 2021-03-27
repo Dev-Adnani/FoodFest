@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".fragment.FaqFragment">
+
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/accordionViewQues1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            app:cardBackgroundColor="@color/black"
+            android:padding="10dp"
+            app:cardCornerRadius="10dp">
+
+            <com.riyagayasen.easyaccordion.AccordionView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                app:heading="@string/question1"
+                app:headingBackgroundColor="@android:color/white"
+                app:headingTextColor="@color/black"
+                app:isAnimated="true"
+                app:isPartitioned="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lemon_reg"
+                    android:text="@string/answer1"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+            </com.riyagayasen.easyaccordion.AccordionView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/accordionViewQues2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/accordionViewQues1"
+            android:layout_margin="6dp"
+            android:padding="10dp"
+            app:cardCornerRadius="10dp">
+
+            <com.riyagayasen.easyaccordion.AccordionView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                app:heading="@string/question2"
+                app:headingBackgroundColor="@android:color/white"
+                app:headingTextColor="@color/black"
+                app:isAnimated="true"
+                app:isPartitioned="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lemon_reg"
+                    android:text="@string/answer2"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+            </com.riyagayasen.easyaccordion.AccordionView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/accordionViewQues3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/accordionViewQues2"
+            android:layout_margin="6dp"
+            android:padding="10dp"
+            app:cardCornerRadius="10dp">
+
+            <com.riyagayasen.easyaccordion.AccordionView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                app:heading="@string/question3"
+                app:headingBackgroundColor="@android:color/white"
+                app:headingTextColor="@color/black"
+
+                app:isAnimated="true"
+                app:isPartitioned="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lemon_reg"
+                    android:text="@string/answer3"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+            </com.riyagayasen.easyaccordion.AccordionView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/accordionViewQues4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/accordionViewQues3"
+            android:layout_margin="6dp"
+            android:padding="10dp"
+            app:cardCornerRadius="10dp">
+
+            <com.riyagayasen.easyaccordion.AccordionView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                app:heading="@string/question4"
+                app:headingBackgroundColor="@android:color/white"
+                app:headingTextColor="@color/black"
+                app:isAnimated="true"
+                app:isPartitioned="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lemon_reg"
+                    android:text="@string/answer4"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+            </com.riyagayasen.easyaccordion.AccordionView>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+
+</ScrollView>
