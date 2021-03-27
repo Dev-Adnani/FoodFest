@@ -1,6 +1,6 @@
 # FoodFest
 
-<img align="left"  height="200px" width="200px" alt="FoodFest"  src="https://www.flaticon.com/svg/vstatic/svg/3063/3063822.svg?token=exp=1616837381~hmac=d61b58a882e8ff32c0fd26430fdffefd"/>
+<img align="left"  height="200px" width="200px" alt="FoodFest"  src="https://i.imgur.com/u4IP0Fs.png"/>
 
 ##  App Features
 
