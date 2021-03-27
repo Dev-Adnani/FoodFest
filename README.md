@@ -5,7 +5,7 @@
 ##  App Features
 
  - The User Can Sign Up / Login / Using His/Her Email , Phone Number , Password
- - The User Has Ablity Reset Password 
+ - The User Has Ablity To Reset Password 
  - The User Can Sort The Restaurant Acoording To Rating Low Price To High Price , High Price To Low Price , Rating
  - The User Can Check His Profile 
  - The User Get Access To All The Restaurant , He/She Order From Any Of The Restaurant
